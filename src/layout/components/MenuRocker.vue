@@ -41,6 +41,15 @@
 						</a>
 					</router-link>
 				</li>
+					<li class="nav-item">
+					<router-link to="/dich-vu">
+						<a class="nav-link" href="/dich-vu">
+							<div class="parent-icon"><i class="bx bx-lock"></i>
+							</div>
+							<div class="menu-title">Dịch Vụ</div>
+						</a>
+					</router-link>
+				</li>
 
 			</ul>
 		</nav>

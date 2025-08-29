@@ -29,15 +29,15 @@ const routes = [
         path : '/danh-sach-khach-hang',
         component: ()=>import('../components/admin/KhachHang/index.vue')
     },
+      {
+        path : '/dich-vu',
+        component: ()=>import('../components/admin/DichVu/DichVuList.vue')
+    },
     
 
 
     //blank
   
-     {
-        path : '/Quen-Mat-Khau',
-        component: ()=>import('../components/admin/QuenMatKhau/index.vue')
-    },
    
 ]
 

@@ -5,8 +5,8 @@
       <img class="hero-bg" src="https://sunrisehotel.webhotel.vn/files/images/rooms/junior-suite/Family-(1).jpg" alt="Rooms" />
       <div class="hero-content">
         <h1>Rooms</h1>
-        <p>With spacious, comfortable rooms and a dedicated and attentive staff, Sunrise Hotel will surely bring guests the best moments of rest.</p>
-        <button class="hero-btn">Find more Here</button>
+        <p>Với phòng nghỉ rộng rãi, thoải mái cùng đội ngũ nhân viên tận tâm, chu đáo, Sunrise Hotel chắc chắn sẽ mang đến cho du khách những giây phút nghỉ ngơi tuyệt vời nhất.</p>
+        <button class="hero-btn">Tìm thêm tại đây</button>
         
       </div>
         
@@ -14,23 +14,23 @@
     <!-- Location Breadcrumb -->
    <div class="hero-booking-bar">
          <div class="row text-nowrap">
-            <div class="col-lg-3"> <button class="booking-btn reserve ">Reserve Now</button> </div>
+            <div class="col-lg-3"> <button class="booking-btn reserve ">Đặt chỗ ngay</button> </div>
             <div class="col-lg-3"> <div class="booking-date"><i class="bx bx-calendar"></i> Check-in</div></div>
             <div class="col-lg-3"><div class="booking-date"><i class="bx bx-calendar"></i> Check-out</div></div>
-            <div class="col-lg-3"><button class="booking-btn check">Check Availability</button></div>
+            <div class="col-lg-3"><button class="booking-btn check">Kiểm tra tình trạng sẵn có</button></div>
          </div>
         </div>
 
     <!-- Accommodation Banner Slider -->
     <section class="accommodation-section">
-      <h2 class="section-title">ELEGANT <span>ACCOMMODATION</span></h2>
+      <h2 class="section-title">THANH LỊCH <span>CHỖ Ở</span></h2>
       <div class="accommodation-slider">
         <div class="slide-img left-blur"></div>
         <div class="slide-img main">
           <div class="slide-info">
-            <h3>JUNIOR SUITE</h3>
-            <p>The rooms are spacious, cozy and wisely arranged in 69 m², with a pair of connecting rooms. Bright tone of the rooms harmon.</p>
-            <button class="btn-detail">VIEW DETAIL</button>
+            <h3>Phòng Junior Suite</h3>
+            <p>Các phòng rộng rãi, ấm cúng và được bố trí hợp lý trên diện tích 69 m², với hai phòng thông nhau. Tông màu tươi sáng của các phòng hài hòa.</p>
+            <button class="btn-detail">VIEW </button>
           </div>
           <img src="https://sunrisehotel.webhotel.vn/files/images/rooms/junior-suite/Family-(1).jpg" alt="Junior Suite" />
         </div>
@@ -44,7 +44,7 @@
       <h2 class="section-title">FEATURED <span>SPECIAL OFFERS</span></h2>
       <div class="offers-list">
         <div class="offer-card">
-          <img src="https://sunrisehotel.webhotel.vn/files/images/rooms/junior-suite/Family-(1).jpg" alt="Honeymoon" />
+          <img src="https://sunrisehotel.webhotel.vn/files/images/rooms/junior-suite/Family-(1).jpg" alt="Honeymoon" class="img-fuild" />
           <h4>HONEY MOON PACKAGE</h4>
           <p>To welcome lasting and complete happiness, Sunrise Hotel offers a "Sweet Honeymoon"..</p>
           <div class="offer-actions">
@@ -53,7 +53,7 @@
           </div>
         </div>
         <div class="offer-card">
-          <img src="https://sunrisehotel.webhotel.vn/files/images/rooms/junior-suite/Family-(1).jpg" alt="Suitcase" />
+          <img src="https://sunrisehotel.webhotel.vn/files/images/rooms/junior-suite/Family-(1).jpg" alt="Suitcase"  class="img-fuild"/>
           <h4>PICK UP YOUR SUITCASE AND GO</h4>
           <p>Overnight stay in luxurious CONNECTING ROOM with panoramic city view</p>
           <div class="offer-actions">
@@ -62,7 +62,7 @@
           </div>
         </div>
         <div class="offer-card">
-          <img src="https://sunrisehotel.webhotel.vn/files/images/rooms/junior-suite/Family-(1).jpg" alt="New Year" />
+          <img src="https://sunrisehotel.webhotel.vn/files/images/rooms/junior-suite/Family-(1).jpg" alt="New Year"  class="img-fuild"/>
           <h4>BRILLIANT TO HAPPY NEW YEAR</h4>
           <p>Promotion room rate 60% OFF from 2,500,000 VND to only 990,000 VND/room/night</p>
           <div class="offer-actions">
