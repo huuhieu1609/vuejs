@@ -73,7 +73,86 @@
       </div>
       <button class="btn-view-all">View all offers <span>+</span></button>
     </section>
+    
   </div>
+      <footer class="bg-dark text-white">
+        <div class="container py-3">
+            <div class="row">
+              <div class="col-lg-1 col-md-12">
+                   
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                     <div class="mb-4">
+                        <h3 class="fw-bold mb-3 text-white">
+                            <i class="fa-solid fa-hospital me-2 text-info"></i>
+                            Hiếu Thứ Hai
+                        </h3>
+                        <p class="text-light mb-4 lh-lg">Chúng tôi cam kết cung cấp chất lượng cao chuyên nghiệp và trang thiết bị hiện đại nhất.</p>
+                        
+                        <div class="mb-3">
+                            <div class="d-flex align-items-center mb-3 p-2 rounded bg-secondary bg-opacity-25">
+                                <i class="fa-solid fa-location-dot me-3 text-info fs-5"></i>
+                                <span class="text-light">05 phước lý 5, TP. Đà Nẵng</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3 p-2 rounded bg-secondary bg-opacity-25">
+                                <i class="fa-solid fa-phone me-3 text-success fs-5"></i>
+                                <span class="text-light fw-semibold">0342211914</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3 p-2 rounded bg-secondary bg-opacity-25">
+                                <i class="fa-solid fa-envelope me-3 text-primary fs-5"></i>
+                                <span class="text-light">huuhieutt12.1@gmail.com</span>
+                            </div>
+                            <div class="d-flex align-items-center p-2 rounded bg-secondary bg-opacity-25">
+                                <i class="fa-solid fa-clock me-3 text-warning fs-5"></i>
+                                <span class="text-light">Thứ 2 - Thứ 7: 8:00 - 18:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-3 col-6">
+                   
+                </div>
+             
+                <div class="col-lg-5 col-md-3 col-6">
+                    <div class="mb-4">
+                        <h5 class="fw-bold mb-4 text-info border-bottom border-info border-2 pb-2 d-inline-block">Đăng ký Đặt Phòng</h5>
+                        <div class="bg-secondary bg-opacity-25 p-4 rounded-3 mb-4">
+                            <p class="text-light mb-3">Nhận thông tin về các dịch vụ mới nhất từ chúng tôi</p>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text bg-light border-0">
+                                        <i class="fa-solid fa-envelope text-secondary"></i>
+                                    </span>
+                                    <input type="email" class="form-control border-0 py-3" placeholder="Nhập email của bạn..." aria-label="Email">
+                                </div>
+                                <button class="btn btn-info text-white fw-bold w-100 py-3 rounded-pill" type="submit">
+                                    <i class="fa-solid fa-paper-plane me-2"></i>
+                                    Đăng ký ngay
+                                </button>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-light mb-3">Kết nối với chúng tôi</p>
+                            <div class="d-flex gap-3 justify-content-center">
+                                <a href="#" class="btn btn-outline-secondary btn-lg rounded-circle d-flex align-items-center justify-content-center p-0" style="width: 50px; height: 50px;">
+                                    <i class="fa-brands fa-facebook fs-5 text-primary m-0" style="line-height: 1;"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-secondary btn-lg rounded-circle d-flex align-items-center justify-content-center p-0" style="width: 50px; height: 50px;">
+                                    <i class="fa-brands fa-x-twitter fs-5 text-info m-0" style="line-height: 1;"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-secondary btn-lg rounded-circle d-flex align-items-center justify-content-center p-0" style="width: 50px; height: 50px;">
+                                    <i class="fa-brands fa-instagram fs-5 text-danger m-0" style="line-height: 1;"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-secondary btn-lg rounded-circle d-flex align-items-center justify-content-center p-0" style="width: 50px; height: 50px;">
+                                    <i class="fa-brands fa-linkedin fs-5 text-primary m-0" style="line-height: 1;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       
+    </footer>
 </template>
 
 <script>
