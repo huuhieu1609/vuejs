@@ -5,6 +5,7 @@ import Default from './layout/wrapper/index.vue'
 const app = createApp(App)
 
 app.use(router)
+
 app.component("default-layout", Default);
 
 app.mount("#app")
