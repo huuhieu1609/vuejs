@@ -50,6 +50,15 @@
 						</a>
 					</router-link>
 				</li>
+					<li class="nav-item">
+					<router-link to="/Thong-Ke">
+						<a class="nav-link" href="/Thong-Ke">
+							<div class="parent-icon"><i class="bx bx-lock"></i>
+							</div>
+							<div class="menu-title">Thống kê</div>
+						</a>
+					</router-link>
+				</li>
 
 			</ul>
 		</nav>
