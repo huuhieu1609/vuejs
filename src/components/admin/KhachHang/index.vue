@@ -20,8 +20,8 @@
                 </div>
                 <div class="card-body">
                   <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Tìm Kiếm">
-                                    <button class="btn btn-primary">Tìm Kiếm</button>
+                                    <input v-model="sreach.noi_dung" type="text" class="form-control" placeholder="Tìm Kiếm">
+                                    <button v-on:click="TimKiem()" class="btn btn-primary">Tìm Kiếm</button>
                                 </div>
                     <table class="table table-bordered align-middle text-center">
                         <thead>
@@ -51,8 +51,8 @@
                                 <td><span v-if="value.gioi_tinh == 1">Nam</span>
                                 <span v-else>Nữ</span></td>
                               
-                                <td><button v-if="value.tinh_trang == 1" class="btn btn-success w-100">Hoạt Động</button>
-                                <button v-else class="btn btn-danger w-100">Khóa</button></td>
+                                <td><button v-on:click="DoiTrangThai(value)" v-if="value.tinh_trang == 1" class="btn btn-success w-100">Hoạt Động</button>
+                                <button v-on:click="DoiTrangThai(value)"  v-else class="btn btn-danger w-100">Khóa</button></td>
                                 <td>
                                     <button v-on:click="Object.assign(chitiet,value)" data-bs-toggle="modal" data-bs-target="#XemChiTietModal" class="btn btn-warning me-1"><i
                                             class="fa-solid fa-circle-info ms-1"></i>Xem</button>
@@ -295,6 +295,9 @@ export default {
         tinh_trang:'',
       },
       chitiet:{
+      },
+      sreach:{
+        noi_dung:'',
       }
     
     }
@@ -366,6 +369,30 @@ export default {
           }
         })
       },
+      DoiTrangThai(payload){
+        axios.post('http://127.0.0.1:8000/api/khach-hang/doi-trang-thai',payload)
+        .then(res=>{
+          if(res.data.status){
+            this.$toast.success("Đổi Trạng Thái Thành Công");
+               this.LoadData();
+          }
+          else{
+            this.$toast.error("Đổi Trạng Thái Thất Bại");
+          }
+        })
+      },
+      TimKiem(){
+        axios.post('http://127.0.0.1:8000/api/khach-hang/tim-kiem',this.sreach)
+        .then(res=>{
+          if(res.data.status){
+            this.$toast.success("Tìm Kiếm Thành Công");
+               this.list_khachhang=res.data.data;
+          }
+          else{
+            this.$toast.error("Tìm Kiếm Thất Bại");
+          }
+        })
+      }
       
   },
 }

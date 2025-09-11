@@ -33,6 +33,10 @@ const routes = [
         path : '/dich-vu',
         component: ()=>import('../components/admin/DichVu/DichVuList.vue')
     },
+     {
+        path : '/profile',
+        component: ()=>import('../components/admin/profile/index.vue')
+    },
     
 
 

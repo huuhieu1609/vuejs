@@ -210,7 +210,7 @@
       <div class="user-box dropdown">
         <a class="user-profile-link" href="#" role="button" data-bs-toggle="dropdown">
           <div class="user-avatar">
-            <img src="https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-1/526850497_122201144318283057_7274250338143675793_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_ohc=gm7XiIavpdYQ7kNvwGsBjkY&_nc_oc=Adm4w5R-TVk32qwR0QFBTJ_6nhiPqCikQS_Thp9kUXon2DkVd6skK5KUtWWpgEDn4vg&_nc_zt=24&_nc_ht=scontent.fdad3-6.fna&_nc_gid=3zsV1bz3WM0FIiUB0yl0AQ&oh=00_AfX3KfGUcs55kLGVed1-5Et1xBeCf6KQdvf7Bzt6P0BWow&oe=68A30F38" alt="user avatar">
+            <img src="https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-1/526583688_1188166543335182_4103561911743280463_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=106&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeH-nKrJ0D_Usfdxcykn56mg4L3NfQGK6cDgvc19AYrpwFYzYIVEqpGCrHNine0fDMgBbilnY5NqsdNxoQJo3jbX&_nc_ohc=qAR-0kmr-v8Q7kNvwEj-Haa&_nc_oc=AdkLRjB6GoLv6-2dJsjc5y62IZ9ygxk0VEwm_sdhdq8w69zv20yo9tWaHvTZ_lmudms&_nc_zt=24&_nc_ht=scontent.fdad3-6.fna&_nc_gid=v63QXqYAHCaDhZwdY0AnEQ&oh=00_AfYxCvgy6a_JklkPt5PhK8ae0fiSoP9jy21Xq7HRxumYbg&oe=68C80F35" alt="user avatar">
             <span class="status-indicator online"></span>
           </div>
           <div class="user-info">
@@ -224,7 +224,7 @@
             <h6>Hồ sơ người dùng</h6>
           </li>
           <li>
-            <router-link to="/admin/profile" class="dropdown-item">
+            <router-link to="/profile" class="dropdown-item">
               <i class="bx bx-user"></i>
               <span>Hồ sơ cá nhân</span>
             </router-link>
